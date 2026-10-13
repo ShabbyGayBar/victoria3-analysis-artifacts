@@ -1,0 +1,42 @@
+Victoria 3 Analysis Artifacts - Licensing and Provenance Notice
+
+Provenance
+
+This repository collects artifacts generated from or based on data read from
+a lawfully installed copy of Victoria 3 using victoria3-analysis:
+
+- tables/ holds parsed and transformed game-data snapshots and analytical
+  results calculated from those snapshots.
+- figures/ holds visualizations and graphs generated from those tables and
+  analytical results.
+
+Paradox Interactive AB and/or its licensors own rights in Victoria 3 and its
+game content. The repository author does not claim rights in that underlying
+content.
+
+License boundary
+
+This is a separate repository from victoria3-analysis. The GPL-3.0-or-later
+license of victoria3-analysis does not apply to this repository's contents,
+including the complete artifact files under tables/ and figures/.
+
+This notice grants no new license over artifact files and no rights in
+Paradox-owned content. Any right to use or redistribute that content must
+come from Paradox's terms or applicable law.
+
+Applicable terms
+
+The artifacts are provided free of charge as unofficial, non-commercial
+analytical material. Their use and redistribution remain subject to the
+Paradox Interactive User Agreement and applicable law:
+
+https://legal.paradoxplaza.com/eula
+
+Sections 1 (License) and 5 (User Generated Content) address ownership,
+non-commercial use and publication, and the limits of creators' rights in
+game-derived content. Consult the current agreement for the applicable terms.
+
+Trademark and affiliation
+
+Victoria 3 is a trademark of Paradox Interactive AB. This project is not
+affiliated with, endorsed by, or sponsored by Paradox Interactive AB.
