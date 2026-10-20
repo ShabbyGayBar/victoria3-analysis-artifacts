@@ -1,0 +1,67 @@
+flowchart LR
+    n0(("coal"))
+    n1(("electricity"))
+    n2(("engines"))
+    n3(("iron"))
+    n4(("oil"))
+    n5(("steel"))
+    n6(("tools"))
+    n7(("transportation"))
+    n8(("wood ★"))
+    n9["building_coal_mine<br/>lvl=3.329 | active"]
+    n10["building_iron_mine<br/>lvl=2.507 | active"]
+    n11["building_logging_camp<br/>lvl=52.36 | active"]
+    n12["building_motor_industry<br/>lvl=1.746 | active"]
+    n13["building_oil_rig<br/>lvl=3.997 | active"]
+    n14["building_power_plant<br/>lvl=2.416 | active"]
+    n15["building_railway<br/>lvl=3.754 | active"]
+    n16["building_steel_mills<br/>lvl=1.755 | active"]
+    n17["building_tooling_workshops<br/>lvl=7.858 | active"]
+    n0 -.->|"10.03"| n10
+    n0 -.->|"209.4"| n11
+    n0 -.->|"70.19"| n16
+    n1 -.->|"261.8"| n11
+    n1 -.->|"8.728"| n12
+    n1 -.->|"52.64"| n16
+    n1 -.->|"39.29"| n17
+    n2 -.->|"3.329"| n9
+    n2 -.->|"2.507"| n10
+    n2 -.->|"52.36"| n11
+    n2 -.->|"39.97"| n13
+    n2 -.->|"36.24"| n14
+    n2 -.->|"75.08"| n15
+    n3 -.->|"175.5"| n16
+    n4 -.->|"16.65"| n9
+    n4 -.->|"12.53"| n10
+    n4 -.->|"96.01"| n12
+    n4 -.->|"120.8"| n14
+    n4 -.->|"75.08"| n15
+    n4 -.->|"78.58"| n17
+    n5 -.->|"87.28"| n12
+    n5 -.->|"18.77"| n15
+    n5 -.->|"157.2"| n17
+    n6 -.->|"49.94"| n9
+    n6 -.->|"37.6"| n10
+    n6 -.->|"523.6"| n11
+    n6 -.->|"8.728"| n12
+    n6 -.->|"8.774"| n16
+    n7 -.->|"16.65"| n9
+    n7 -.->|"12.53"| n10
+    n7 -.->|"418.9"| n11
+    n7 -.->|"39.97"| n13
+    n8 -.->|"235.7"| n17
+    n9 -.->|"289.6"| n0
+    n10 -.->|"175.5"| n3
+    n11 -.->|"5236"| n8
+    n12 -.->|"209.5"| n2
+    n13 -.->|"399.7"| n4
+    n14 -.->|"362.4"| n1
+    n15 -.->|"488"| n7
+    n16 -.->|"263.2"| n5
+    n17 -.->|"628.6"| n6
+    class n0,n1,n2,n3,n4,n5,n6,n7,n8,n9,n10,n11,n12,n13,n14,n15,n16,n17 cyclic
+    class n13 resource
+    class n9,n10,n11,n12,n13,n14,n15,n16,n17 active
+    classDef cyclic stroke:#d97706,stroke-width:2px
+    classDef resource fill:#dcfce7,stroke:#15803d
+    classDef active fill:#dbeafe,stroke:#1d4ed8

@@ -1,0 +1,2 @@
+kind,family,label,realized_value,bound,slack,residual,binding,solver_marginal,improvement_per_unit
+inequality,produce,wine,-2000.0,-2000.0,0.0,0.0,True,-15.0,15.0

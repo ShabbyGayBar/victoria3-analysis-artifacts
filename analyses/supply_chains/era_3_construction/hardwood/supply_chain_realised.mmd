@@ -1,0 +1,10 @@
+flowchart LR
+    n0(("hardwood ★"))
+    n1(("wood"))
+    n2["building_logging_camp<br/>lvl=250 | active"]
+    n2 -->|"2500"| n0
+    n2 -->|"2500"| n1
+    class n2 active
+    classDef cyclic stroke:#d97706,stroke-width:2px
+    classDef resource fill:#dcfce7,stroke:#15803d
+    classDef active fill:#dbeafe,stroke:#1d4ed8

@@ -1,0 +1,66 @@
+flowchart LR
+    n0(("coal"))
+    n1(("electricity"))
+    n2(("engines"))
+    n3(("iron"))
+    n4(("oil ★"))
+    n5(("steel"))
+    n6(("tools"))
+    n7(("transportation"))
+    n8(("wood"))
+    n9["building_coal_mine<br/>lvl=2.26 | active"]
+    n10["building_iron_mine<br/>lvl=2.084 | active"]
+    n11["building_logging_camp<br/>lvl=0.362 | active"]
+    n12["building_motor_industry<br/>lvl=3.929 | active"]
+    n13["building_oil_rig<br/>lvl=25.34 | active"]
+    n14["building_power_plant<br/>lvl=1.654 | active"]
+    n15["building_railway<br/>lvl=2.648 | active"]
+    n16["building_steel_mills<br/>lvl=1.621 | active"]
+    n17["building_tooling_workshops<br/>lvl=1.207 | active"]
+    n0 -.->|"8.338"| n10
+    n0 -.->|"1.448"| n11
+    n0 -.->|"39.29"| n12
+    n0 -.->|"82.72"| n14
+    n0 -.->|"64.85"| n16
+    n1 -.->|"1.81"| n11
+    n1 -.->|"117.9"| n12
+    n1 -.->|"39.71"| n15
+    n1 -.->|"6.034"| n17
+    n2 -.->|"2.26"| n9
+    n2 -.->|"2.084"| n10
+    n2 -.->|"0.362"| n11
+    n2 -.->|"253.4"| n13
+    n2 -.->|"16.54"| n14
+    n2 -.->|"39.71"| n15
+    n3 -.->|"145.9"| n16
+    n4 -.->|"11.3"| n9
+    n4 -.->|"10.42"| n10
+    n4 -.->|"12.07"| n17
+    n5 -.->|"157.2"| n12
+    n5 -.->|"13.24"| n15
+    n5 -.->|"24.14"| n17
+    n6 -.->|"33.9"| n9
+    n6 -.->|"31.27"| n10
+    n6 -.->|"3.62"| n11
+    n6 -.->|"19.65"| n12
+    n6 -.->|"8.106"| n16
+    n7 -.->|"11.3"| n9
+    n7 -.->|"10.42"| n10
+    n7 -.->|"2.896"| n11
+    n7 -.->|"253.4"| n13
+    n8 -.->|"36.2"| n17
+    n9 -.->|"196.6"| n0
+    n10 -.->|"145.9"| n3
+    n11 -.->|"36.2"| n8
+    n12 -.->|"314.3"| n2
+    n13 -.->|"2534"| n4
+    n14 -.->|"165.4"| n1
+    n15 -.->|"278"| n7
+    n16 -.->|"194.5"| n5
+    n17 -.->|"96.54"| n6
+    class n0,n1,n2,n3,n4,n5,n6,n7,n8,n9,n10,n11,n12,n13,n14,n15,n16,n17 cyclic
+    class n13 resource
+    class n9,n10,n11,n12,n13,n14,n15,n16,n17 active
+    classDef cyclic stroke:#d97706,stroke-width:2px
+    classDef resource fill:#dcfce7,stroke:#15803d
+    classDef active fill:#dbeafe,stroke:#1d4ed8

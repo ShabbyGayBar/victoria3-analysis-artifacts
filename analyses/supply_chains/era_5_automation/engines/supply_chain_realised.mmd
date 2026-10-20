@@ -1,0 +1,67 @@
+flowchart LR
+    n0(("coal"))
+    n1(("electricity"))
+    n2(("engines ★"))
+    n3(("iron"))
+    n4(("oil"))
+    n5(("steel"))
+    n6(("tools"))
+    n7(("transportation"))
+    n8(("wood"))
+    n9["building_coal_mine<br/>lvl=2.996 | active"]
+    n10["building_iron_mine<br/>lvl=8.015 | active"]
+    n11["building_logging_camp<br/>lvl=1.051 | active"]
+    n12["building_motor_industry<br/>lvl=15.3 | active"]
+    n13["building_oil_rig<br/>lvl=10.47 | active"]
+    n14["building_power_plant<br/>lvl=1.784 | active"]
+    n15["building_railway<br/>lvl=1.293 | active"]
+    n16["building_steel_mills<br/>lvl=5.61 | active"]
+    n17["building_tooling_workshops<br/>lvl=3.503 | active"]
+    n0 -.->|"32.06"| n10
+    n0 -.->|"4.203"| n11
+    n0 -.->|"224.4"| n16
+    n1 -.->|"5.254"| n11
+    n1 -.->|"76.5"| n12
+    n1 -.->|"168.3"| n16
+    n1 -.->|"17.51"| n17
+    n2 -.->|"2.996"| n9
+    n2 -.->|"8.015"| n10
+    n2 -.->|"1.051"| n11
+    n2 -.->|"104.7"| n13
+    n2 -.->|"26.76"| n14
+    n2 -.->|"25.87"| n15
+    n3 -.->|"561"| n16
+    n4 -.->|"14.98"| n9
+    n4 -.->|"40.07"| n10
+    n4 -.->|"841.5"| n12
+    n4 -.->|"89.19"| n14
+    n4 -.->|"25.87"| n15
+    n4 -.->|"35.03"| n17
+    n5 -.->|"765"| n12
+    n5 -.->|"6.466"| n15
+    n5 -.->|"70.06"| n17
+    n6 -.->|"44.94"| n9
+    n6 -.->|"120.2"| n10
+    n6 -.->|"10.51"| n11
+    n6 -.->|"76.5"| n12
+    n6 -.->|"28.05"| n16
+    n7 -.->|"14.98"| n9
+    n7 -.->|"40.07"| n10
+    n7 -.->|"8.407"| n11
+    n7 -.->|"104.7"| n13
+    n8 -.->|"105.1"| n17
+    n9 -.->|"260.7"| n0
+    n10 -.->|"561"| n3
+    n11 -.->|"105.1"| n8
+    n12 -.->|"1836"| n2
+    n13 -.->|"1047"| n4
+    n14 -.->|"267.6"| n1
+    n15 -.->|"168.1"| n7
+    n16 -.->|"841.5"| n5
+    n17 -.->|"280.2"| n6
+    class n0,n1,n2,n3,n4,n5,n6,n7,n8,n9,n10,n11,n12,n13,n14,n15,n16,n17 cyclic
+    class n13 resource
+    class n9,n10,n11,n12,n13,n14,n15,n16,n17 active
+    classDef cyclic stroke:#d97706,stroke-width:2px
+    classDef resource fill:#dcfce7,stroke:#15803d
+    classDef active fill:#dbeafe,stroke:#1d4ed8

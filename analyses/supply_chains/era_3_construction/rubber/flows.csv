@@ -1,0 +1,2 @@
+source,target,role,good,process,unit_rate,realized_amount,price,realized_value,active,in_cycle
+process:building_rubber_plantation+default_building_rubber_plantation+pm_road_carts+pm_privately_owned,good:rubber,output,rubber,building_rubber_plantation+default_building_rubber_plantation+pm_road_carts+pm_privately_owned,30.0,2500.0,40.0,100000.0,True,False

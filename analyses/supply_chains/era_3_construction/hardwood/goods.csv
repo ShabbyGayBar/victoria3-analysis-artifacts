@@ -1,0 +1,3 @@
+good,terminal,price,production,consumption,imports,exports,pop_needs,sell_orders,buy_orders,net_balance,output_value,input_value,input_cost_share,allowed_producers,active_producers
+wood,False,20.0,2500.0,0.0,0.0,0.0,0.0,2500.0,0.0,2500.0,50000.0,0.0,0.0,120,1
+hardwood,True,40.0,2500.0,0.0,0.0,0.0,0.0,2500.0,0.0,2500.0,100000.0,0.0,0.0,60,1

@@ -1,0 +1,66 @@
+flowchart LR
+    n0(("coal"))
+    n1(("electricity"))
+    n2(("engines"))
+    n3(("hardwood ★"))
+    n4(("iron"))
+    n5(("oil"))
+    n6(("steel"))
+    n7(("tools"))
+    n8(("transportation"))
+    n9(("wood"))
+    n10["building_coal_mine<br/>lvl=18.05 | active"]
+    n11["building_iron_mine<br/>lvl=5.716 | active"]
+    n12["building_logging_camp<br/>lvl=250 | active"]
+    n13["building_motor_industry<br/>lvl=8.171 | active"]
+    n14["building_oil_rig<br/>lvl=1.713 | active"]
+    n15["building_power_plant<br/>lvl=5.765 | active"]
+    n16["building_railway<br/>lvl=20.34 | active"]
+    n17["building_steel_mills<br/>lvl=4.446 | active"]
+    n18["building_tooling_workshops<br/>lvl=5.245 | active"]
+    n0 -.->|"22.86"| n11
+    n0 -.->|"1000"| n12
+    n0 -.->|"81.71"| n13
+    n0 -.->|"288.2"| n15
+    n0 -.->|"177.8"| n17
+    n1 -.->|"245.1"| n13
+    n1 -.->|"305.1"| n16
+    n1 -.->|"26.23"| n18
+    n2 -.->|"18.05"| n10
+    n2 -.->|"5.716"| n11
+    n2 -.->|"250"| n12
+    n2 -.->|"17.13"| n14
+    n2 -.->|"57.65"| n15
+    n2 -.->|"305.1"| n16
+    n4 -.->|"400.1"| n17
+    n5 -.->|"90.27"| n10
+    n5 -.->|"28.58"| n11
+    n5 -.->|"52.45"| n18
+    n6 -.->|"326.8"| n13
+    n6 -.->|"101.7"| n16
+    n6 -.->|"104.9"| n18
+    n7 -.->|"270.8"| n10
+    n7 -.->|"85.73"| n11
+    n7 -.->|"40.86"| n13
+    n7 -.->|"22.23"| n17
+    n8 -.->|"90.27"| n10
+    n8 -.->|"28.58"| n11
+    n8 -.->|"2000"| n12
+    n8 -.->|"17.13"| n14
+    n9 -.->|"157.4"| n18
+    n10 -.->|"1571"| n0
+    n11 -.->|"400.1"| n4
+    n12 -->|"2500"| n3
+    n12 -.->|"2500"| n9
+    n13 -.->|"653.7"| n2
+    n14 -.->|"171.3"| n5
+    n15 -.->|"576.5"| n1
+    n16 -.->|"2136"| n8
+    n17 -.->|"533.5"| n6
+    n18 -.->|"419.6"| n7
+    class n0,n1,n2,n4,n5,n6,n7,n8,n9,n10,n11,n12,n13,n14,n15,n16,n17,n18 cyclic
+    class n14 resource
+    class n10,n11,n12,n13,n14,n15,n16,n17,n18 active
+    classDef cyclic stroke:#d97706,stroke-width:2px
+    classDef resource fill:#dcfce7,stroke:#15803d
+    classDef active fill:#dbeafe,stroke:#1d4ed8
