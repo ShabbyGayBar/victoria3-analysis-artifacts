@@ -13,60 +13,59 @@ flowchart LR
     n11(("sulfur"))
     n12(("tools"))
     n13(("wood"))
-    n14["building_chemical_plants<br/>lvl=1.72 | active"]
-    n15["building_coal_mine<br/>lvl=7.19 | active"]
+    n14["building_chemical_plants<br/>lvl=1.445 | active"]
+    n15["building_coal_mine<br/>lvl=8.296 | active"]
     n16["building_cotton_plantation<br/>lvl=5.833 | active"]
-    n17["building_iron_mine<br/>lvl=8.721 | active"]
-    n18["building_logging_camp<br/>lvl=13.13 | active"]
-    n19["building_motor_industry<br/>lvl=6.166 | active"]
-    n20["building_power_plant<br/>lvl=1.829 | active"]
+    n17["building_iron_mine<br/>lvl=9.762 | active"]
+    n18["building_logging_camp<br/>lvl=13.24 | active"]
+    n19["building_motor_industry<br/>lvl=6.268 | active"]
+    n20["building_power_plant<br/>lvl=1.324 | active"]
     n21["building_shipyards<br/>lvl=29.17 | active"]
     n22["building_shipyards<br/>lvl=20.83 | active"]
-    n23["building_steel_mills<br/>lvl=7.561 | active"]
-    n24["building_sulfur_mine<br/>lvl=1.29 | active"]
-    n25["building_tooling_workshops<br/>lvl=4.866 | active"]
-    n1 -.->|"25.8"| n14
-    n1 -.->|"130.8"| n17
+    n23["building_steel_mills<br/>lvl=7.649 | active"]
+    n24["building_sulfur_mine<br/>lvl=1.083 | active"]
+    n25["building_tooling_workshops<br/>lvl=5.244 | active"]
+    n1 -.->|"21.67"| n14
+    n1 -.->|"146.4"| n17
     n1 -->|"208.3"| n22
-    n1 -.->|"226.8"| n23
-    n1 -.->|"19.35"| n24
-    n2 -.->|"25.8"| n14
-    n2 -.->|"65.63"| n18
+    n1 -.->|"229.5"| n23
+    n1 -.->|"16.25"| n24
+    n2 -.->|"66.2"| n18
     n3 -->|"29.17"| n16
-    n3 -.->|"9.143"| n20
+    n3 -.->|"13.24"| n20
     n3 -->|"208.3"| n22
-    n4 -.->|"71.9"| n15
-    n4 -.->|"87.21"| n17
-    n4 -.->|"12.9"| n24
+    n4 -.->|"41.48"| n15
+    n4 -.->|"48.81"| n17
+    n4 -.->|"10.83"| n24
     n5 -->|"583.3"| n21
-    n7 -.->|"17.2"| n14
-    n7 -.->|"680.5"| n23
+    n7 -.->|"14.45"| n14
+    n7 -.->|"688.5"| n23
     n9 -->|"729.2"| n21
-    n10 -.->|"185"| n19
+    n10 -.->|"188.1"| n19
     n10 -->|"625"| n22
-    n10 -.->|"97.32"| n25
-    n11 -.->|"103.2"| n14
-    n12 -.->|"107.8"| n15
-    n12 -.->|"130.8"| n17
-    n12 -.->|"131.3"| n18
-    n12 -.->|"19.35"| n24
+    n10 -.->|"104.9"| n25
+    n11 -.->|"86.68"| n14
+    n12 -.->|"124.4"| n15
+    n12 -.->|"146.4"| n17
+    n12 -.->|"132.4"| n18
+    n12 -.->|"16.25"| n24
     n13 -->|"1167"| n21
-    n13 -.->|"146"| n25
-    n14 -.->|"172"| n4
-    n14 -->|"68.8"| n6
-    n15 -.->|"611.1"| n1
+    n13 -.->|"157.3"| n25
+    n14 -.->|"101.1"| n4
+    n14 -->|"86.68"| n6
+    n15 -.->|"622.2"| n1
     n16 -->|"583.3"| n5
-    n17 -.->|"697.7"| n7
-    n18 -.->|"1313"| n13
-    n19 -.->|"246.6"| n3
-    n20 -.->|"91.43"| n2
+    n17 -.->|"702.9"| n7
+    n18 -.->|"1324"| n13
+    n19 -.->|"250.7"| n3
+    n20 -.->|"66.2"| n2
     n21 -->|"1021"| n0
     n21 -->|"729.2"| n8
     n22 -->|"520.8"| n8
     n22 -->|"729.2"| n9
-    n23 -.->|"907.3"| n10
-    n24 -.->|"103.2"| n11
-    n25 -.->|"389.3"| n12
+    n23 -.->|"917.9"| n10
+    n24 -.->|"86.68"| n11
+    n25 -.->|"419.5"| n12
     class n1,n2,n3,n4,n7,n10,n11,n12,n13,n14,n15,n17,n18,n19,n20,n23,n24,n25 cyclic
     class n14,n15,n16,n17,n18,n19,n20,n21,n22,n23,n24,n25 active
     classDef cyclic stroke:#d97706,stroke-width:2px

@@ -62,7 +62,7 @@ equality,banned_building_groups,bg_naval_logistics_center,0.0,0.0,,0.0,True,-0.0
 equality,banned_building_groups,bg_army_logistics_center,0.0,0.0,,0.0,True,-0.0,
 equality,banned_building_groups,bg_bureaucracy,0.0,0.0,,0.0,True,-0.0,
 equality,banned_building_groups,bg_technology,0.0,0.0,,0.0,True,-0.0,
-equality,banned_building_groups,bg_skyscraper,0.0,0.0,,0.0,True,-0.0,
+equality,banned_building_groups,bg_skyscraper,0.0,0.0,,0.0,True,1000.0,
 equality,banned_building_groups,bg_monuments,0.0,0.0,,0.0,True,-0.0,
 equality,banned_building_groups,bg_monuments_hidden,0.0,0.0,,0.0,True,-0.0,
 equality,banned_building_groups,bg_canals,0.0,0.0,,0.0,True,2000.0,

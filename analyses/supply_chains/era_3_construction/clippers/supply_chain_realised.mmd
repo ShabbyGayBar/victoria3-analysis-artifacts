@@ -1,70 +1,65 @@
 flowchart LR
     n0(("clippers ★"))
     n1(("coal"))
-    n2(("electricity"))
-    n3(("engines"))
-    n4(("explosives"))
-    n5(("fabric"))
-    n6(("fertilizer"))
-    n7(("hardwood"))
-    n8(("iron"))
-    n9(("steel"))
-    n10(("sulfur"))
-    n11(("tools"))
-    n12(("wood"))
-    n13["building_chemical_plants<br/>lvl=0.2057 | active"]
-    n14["building_coal_mine<br/>lvl=1.343 | active"]
-    n15["building_cotton_plantation<br/>lvl=4.762 | active"]
-    n16["building_iron_mine<br/>lvl=2.463 | active"]
-    n17["building_logging_camp<br/>lvl=17.72 | active"]
-    n18["building_logging_camp<br/>lvl=29.9 | active"]
-    n19["building_motor_industry<br/>lvl=6.555 | active"]
-    n20["building_power_plant<br/>lvl=0.06172 | active"]
-    n21["building_shipyards<br/>lvl=23.81 | active"]
-    n22["building_steel_mills<br/>lvl=1.947 | active"]
-    n23["building_sulfur_mine<br/>lvl=0.1543 | active"]
-    n24["building_tooling_workshops<br/>lvl=1.85 | active"]
-    n1 -.->|"3.086"| n13
-    n1 -.->|"36.94"| n16
-    n1 -.->|"58.42"| n22
-    n1 -.->|"2.314"| n23
-    n2 -.->|"3.086"| n13
-    n3 -->|"23.81"| n15
-    n3 -.->|"0.3086"| n20
-    n3 -->|"238.1"| n21
-    n4 -.->|"6.717"| n14
-    n4 -.->|"12.31"| n16
-    n4 -.->|"1.543"| n23
-    n5 -->|"476.2"| n21
-    n7 -->|"476.2"| n21
-    n8 -.->|"2.057"| n13
-    n8 -.->|"175.2"| n22
-    n9 -.->|"196.7"| n19
-    n9 -.->|"37.01"| n24
-    n10 -.->|"12.34"| n13
-    n11 -.->|"20.15"| n14
-    n11 -.->|"36.94"| n16
-    n11 -.->|"88.62"| n17
-    n11 -.->|"2.314"| n23
-    n12 -->|"952.4"| n21
-    n12 -.->|"55.51"| n24
-    n13 -.->|"20.57"| n4
-    n13 -->|"8.229"| n6
-    n14 -.->|"100.8"| n1
-    n15 -->|"476.2"| n5
-    n16 -.->|"177.3"| n8
-    n17 -->|"177.2"| n7
-    n17 -.->|"708.9"| n12
-    n18 -->|"299"| n7
-    n18 -->|"299"| n12
-    n19 -.->|"262.2"| n3
-    n20 -.->|"3.086"| n2
-    n21 -->|"1667"| n0
-    n22 -.->|"233.7"| n9
-    n23 -.->|"12.34"| n10
-    n24 -.->|"148"| n11
-    class n1,n2,n3,n4,n8,n9,n10,n11,n12,n13,n14,n16,n17,n19,n20,n22,n23,n24 cyclic
-    class n13,n14,n15,n16,n17,n18,n19,n20,n21,n22,n23,n24 active
+    n2(("engines"))
+    n3(("explosives"))
+    n4(("fabric"))
+    n5(("fertilizer"))
+    n6(("hardwood"))
+    n7(("iron"))
+    n8(("steel"))
+    n9(("sulfur"))
+    n10(("tools"))
+    n11(("wood"))
+    n12["building_chemical_plants<br/>lvl=0.3091 | active"]
+    n13["building_coal_mine<br/>lvl=1.384 | active"]
+    n14["building_cotton_plantation<br/>lvl=4.762 | active"]
+    n15["building_iron_mine<br/>lvl=2.48 | active"]
+    n16["building_logging_camp<br/>lvl=17.75 | active"]
+    n17["building_logging_camp<br/>lvl=29.87 | active"]
+    n18["building_motor_industry<br/>lvl=6.548 | active"]
+    n19["building_shipyards<br/>lvl=23.81 | active"]
+    n20["building_steel_mills<br/>lvl=1.95 | active"]
+    n21["building_sulfur_mine<br/>lvl=0.2319 | active"]
+    n22["building_tooling_workshops<br/>lvl=1.877 | active"]
+    n1 -.->|"4.637"| n12
+    n1 -.->|"37.2"| n15
+    n1 -.->|"58.49"| n20
+    n1 -.->|"3.478"| n21
+    n2 -->|"23.81"| n14
+    n2 -->|"238.1"| n19
+    n3 -.->|"6.921"| n13
+    n3 -.->|"12.4"| n15
+    n3 -.->|"2.319"| n21
+    n4 -->|"476.2"| n19
+    n6 -->|"476.2"| n19
+    n7 -.->|"3.091"| n12
+    n7 -.->|"175.5"| n20
+    n8 -->|"196.4"| n18
+    n8 -.->|"37.55"| n22
+    n9 -.->|"18.55"| n12
+    n10 -.->|"20.76"| n13
+    n10 -.->|"37.2"| n15
+    n10 -.->|"88.75"| n16
+    n10 -.->|"3.478"| n21
+    n11 -->|"952.4"| n19
+    n11 -.->|"56.32"| n22
+    n12 -.->|"21.64"| n3
+    n12 -->|"18.55"| n5
+    n13 -.->|"103.8"| n1
+    n14 -->|"476.2"| n4
+    n15 -.->|"178.6"| n7
+    n16 -->|"177.5"| n6
+    n16 -.->|"710"| n11
+    n17 -->|"298.7"| n6
+    n17 -->|"298.7"| n11
+    n18 -->|"261.9"| n2
+    n19 -->|"1667"| n0
+    n20 -.->|"234"| n8
+    n21 -.->|"18.55"| n9
+    n22 -.->|"150.2"| n10
+    class n1,n3,n7,n8,n9,n10,n11,n12,n13,n15,n16,n20,n21,n22 cyclic
+    class n12,n13,n14,n15,n16,n17,n18,n19,n20,n21,n22 active
     classDef cyclic stroke:#d97706,stroke-width:2px
     classDef resource fill:#dcfce7,stroke:#15803d
     classDef active fill:#dbeafe,stroke:#1d4ed8
