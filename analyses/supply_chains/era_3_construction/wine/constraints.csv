@@ -6,7 +6,7 @@ inequality,import_limit,tanks,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,aeroplanes,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,manowars,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,ironclads,0.0,0.0,0.0,0.0,True,-0.0,0.0
-inequality,import_limit,grain,-2000.0,0.0,2000.0,0.0,False,-0.0,0.0
+inequality,import_limit,grain,-3750.0,0.0,3750.0,0.0,False,-0.0,0.0
 inequality,import_limit,fish,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,fabric,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,wood,0.0,0.0,0.0,0.0,True,-0.0,0.0
@@ -51,7 +51,7 @@ inequality,import_limit,luxury_clothes,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,luxury_furniture,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,gold,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,fine_art,0.0,0.0,0.0,0.0,True,-0.0,0.0
-inequality,produce,wine,-2000.0,-2000.0,0.0,0.0,True,-15.0,15.0
+inequality,produce,wine,-2000.0,-2000.0,0.0,0.0,True,-18.75,18.75
 equality,era_cap,era_cap,0.0,0.0,,0.0,True,-0.0,
 equality,banned_building_groups,bg_gold_fields,0.0,0.0,,0.0,True,-0.0,
 equality,banned_building_groups,bg_army,0.0,0.0,,0.0,True,-0.0,

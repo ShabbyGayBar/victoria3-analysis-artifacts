@@ -16,13 +16,13 @@ inequality,import_limit,furniture,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,paper,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,services,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,transportation,0.0,0.0,0.0,0.0,True,-70.10623620329036,70.10623620329036
-inequality,import_limit,electricity,-1.7763568394002505e-15,0.0,1.7763568394002505e-15,0.0,True,-80.20068934640075,80.20068934640075
+inequality,import_limit,electricity,1.7763568394002505e-15,0.0,-1.7763568394002505e-15,0.0,True,-80.20068934640075,80.20068934640075
 inequality,import_limit,clippers,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,steamers,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,silk,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,dye,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,sulfur,0.0,0.0,0.0,0.0,True,-48.57064915368543,48.57064915368543
-inequality,import_limit,coal,7.460698725481052e-14,0.0,-7.460698725481052e-14,0.0,True,-41.87124927041845,41.87124927041845
+inequality,import_limit,coal,7.593925488436071e-14,0.0,-7.593925488436071e-14,0.0,True,-41.87124927041845,41.87124927041845
 inequality,import_limit,iron,0.0,0.0,0.0,0.0,True,-53.96738794853942,53.96738794853942
 inequality,import_limit,lead,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,hardwood,0.0,0.0,0.0,0.0,True,-0.0,0.0
@@ -31,7 +31,7 @@ inequality,import_limit,oil,0.0,0.0,0.0,0.0,True,-48.77016666384585,48.770166663
 inequality,import_limit,engines,-3.623767952376511e-13,0.0,3.623767952376511e-13,0.0,True,-117.59543043516814,117.59543043516814
 inequality,import_limit,steel,1.1546319456101628e-13,0.0,-1.1546319456101628e-13,0.0,True,-78.84260092439081,78.84260092439081
 inequality,import_limit,glass,0.0,0.0,0.0,0.0,True,-0.0,0.0
-inequality,import_limit,fertilizer,2.2737367544323206e-13,0.0,-2.2737367544323206e-13,0.0,True,-54.82957937904818,54.82957937904818
+inequality,import_limit,fertilizer,1.7053025658242404e-13,0.0,-1.7053025658242404e-13,0.0,True,-54.82957937904818,54.82957937904818
 inequality,import_limit,tools,7.105427357601002e-15,0.0,-7.105427357601002e-15,0.0,True,-65.83944494832232,65.83944494832232
 inequality,import_limit,explosives,-4.263256414560601e-14,0.0,4.263256414560601e-14,0.0,True,-64.00107992911838,64.00107992911838
 inequality,import_limit,porcelain,0.0,0.0,0.0,0.0,True,-0.0,0.0

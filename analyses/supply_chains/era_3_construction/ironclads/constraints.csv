@@ -15,7 +15,7 @@ inequality,import_limit,clothes,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,furniture,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,paper,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,services,0.0,0.0,0.0,0.0,True,-0.0,0.0
-inequality,import_limit,transportation,0.0,0.0,0.0,0.0,True,-1.4210854715202004e-14,1.4210854715202004e-14
+inequality,import_limit,transportation,0.0,0.0,0.0,0.0,True,-7.105427357601002e-15,7.105427357601002e-15
 inequality,import_limit,electricity,0.0,0.0,0.0,0.0,True,-16.079877760411705,16.079877760411705
 inequality,import_limit,clippers,-1020.8333333333335,0.0,1020.8333333333335,0.0,False,-0.0,0.0
 inequality,import_limit,steamers,1.1368683772161603e-13,0.0,-1.1368683772161603e-13,0.0,True,-7.648659779120079,7.648659779120079
@@ -69,8 +69,8 @@ equality,banned_building_groups,bg_canals,0.0,0.0,,0.0,True,2205.8309012359555,
 equality,banned_building_groups,bg_trade,0.0,0.0,,0.0,True,-0.0,
 equality,banned_building_groups,bg_manor_houses,0.0,0.0,,0.0,True,-0.0,
 equality,banned_building_groups,bg_financial_districts,0.0,0.0,,0.0,True,-0.0,
-equality,banned_building_groups,bg_subsistence_agriculture,0.0,0.0,,0.0,True,-3.1012704234718633,
-equality,banned_building_groups,bg_subsistence_ranching,0.0,0.0,,0.0,True,-2.7137364345592387,
+equality,banned_building_groups,bg_subsistence_agriculture,0.0,0.0,,0.0,True,-4.361255143523326,
+equality,banned_building_groups,bg_subsistence_ranching,0.0,0.0,,0.0,True,-0.0,
 equality,banned_building_groups,bg_construction,0.0,0.0,,0.0,True,-0.0,
 equality,banned_building_groups,bg_company_headquarter,0.0,0.0,,0.0,True,-0.0,
 equality,banned_building_groups,bg_company_regional_headquarter,0.0,0.0,,0.0,True,-0.0,

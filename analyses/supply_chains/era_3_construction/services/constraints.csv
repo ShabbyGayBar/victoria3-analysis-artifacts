@@ -9,13 +9,13 @@ inequality,import_limit,ironclads,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,grain,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,fish,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,fabric,0.0,0.0,0.0,0.0,True,-0.0,0.0
-inequality,import_limit,wood,-2.1316282072803006e-14,0.0,2.1316282072803006e-14,0.0,True,-3.2950374179281763,3.2950374179281763
+inequality,import_limit,wood,0.0,0.0,0.0,0.0,True,-3.2950374179281763,3.2950374179281763
 inequality,import_limit,groceries,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,clothes,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,furniture,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,paper,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,services,-3333.3333333333335,0.0,3333.3333333333335,0.0,False,-0.0,0.0
-inequality,import_limit,transportation,0.0,0.0,0.0,0.0,True,-1.4210854715202004e-14,1.4210854715202004e-14
+inequality,import_limit,transportation,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,electricity,0.0,0.0,0.0,0.0,True,-16.079877760411705,16.079877760411705
 inequality,import_limit,clippers,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,steamers,0.0,0.0,0.0,0.0,True,-0.0,0.0
@@ -69,8 +69,8 @@ equality,banned_building_groups,bg_canals,0.0,0.0,,0.0,True,2205.8309012359555,
 equality,banned_building_groups,bg_trade,0.0,0.0,,0.0,True,-0.0,
 equality,banned_building_groups,bg_manor_houses,0.0,0.0,,0.0,True,-0.0,
 equality,banned_building_groups,bg_financial_districts,0.0,0.0,,0.0,True,-0.0,
-equality,banned_building_groups,bg_subsistence_agriculture,0.0,0.0,,0.0,True,-2.80078180523895,
-equality,banned_building_groups,bg_subsistence_ranching,0.0,0.0,,0.0,True,-1.1532630962748618,
+equality,banned_building_groups,bg_subsistence_agriculture,0.0,0.0,,0.0,True,-3.1302855470317676,
+equality,banned_building_groups,bg_subsistence_ranching,0.0,0.0,,0.0,True,-0.0,
 equality,banned_building_groups,bg_construction,0.0,0.0,,0.0,True,-0.0,
 equality,banned_building_groups,bg_company_headquarter,0.0,0.0,,0.0,True,-0.0,
 equality,banned_building_groups,bg_company_regional_headquarter,0.0,0.0,,0.0,True,-0.0,
