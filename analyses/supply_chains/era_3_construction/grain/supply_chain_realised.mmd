@@ -1,76 +1,8 @@
 flowchart LR
-    n0(("coal"))
-    n1(("dye"))
-    n2(("electricity"))
-    n3(("engines"))
-    n4(("explosives"))
-    n5(("fertilizer"))
-    n6(("grain ★"))
-    n7(("iron"))
-    n8(("paper"))
-    n9(("rubber"))
-    n10(("steel"))
-    n11(("sulfur"))
-    n12(("tools"))
-    n13(("wood"))
-    n14["building_chemical_plants<br/>lvl=9.166 | active"]
-    n15["building_coal_mine<br/>lvl=1.467 | active"]
-    n16["building_dye_plantation<br/>lvl=0.03323 | active"]
-    n17["building_explosives_factory<br/>lvl=0.8307 | active"]
-    n18["building_iron_mine<br/>lvl=3.798 | active"]
-    n19["building_logging_camp<br/>lvl=0.04984 | active"]
-    n20["building_motor_industry<br/>lvl=0.03145 | active"]
-    n21["building_paper_mills<br/>lvl=0.1661 | active"]
-    n22["building_power_plant<br/>lvl=0.004984 | active"]
-    n23["building_rice_farm<br/>lvl=31.25 | active"]
-    n24["building_rubber_plantation<br/>lvl=0.2084 | active"]
-    n25["building_steel_mills<br/>lvl=0.3205 | active"]
-    n26["building_sulfur_mine<br/>lvl=3.873 | active"]
-    n27["building_tooling_workshops<br/>lvl=1.251 | active"]
-    n0 -.->|"56.97"| n18
-    n0 -.->|"9.616"| n25
-    n0 -.->|"58.1"| n26
-    n1 -.->|"1.661"| n21
-    n2 -.->|"0.2492"| n19
-    n3 -.->|"0.1661"| n16
-    n3 -.->|"0.04984"| n22
-    n3 -.->|"1.042"| n24
-    n4 -.->|"14.67"| n15
-    n4 -.->|"37.98"| n18
-    n4 -.->|"38.73"| n26
-    n5 -.->|"33.23"| n17
-    n5 -->|"1250"| n23
-    n7 -.->|"275"| n14
-    n7 -.->|"28.85"| n25
-    n8 -.->|"16.61"| n17
-    n9 -.->|"12.51"| n27
-    n10 -.->|"0.9436"| n20
-    n10 -.->|"37.52"| n27
-    n11 -.->|"275"| n14
-    n11 -.->|"33.23"| n17
-    n11 -.->|"1.661"| n21
-    n12 -.->|"22"| n15
-    n12 -.->|"56.97"| n18
-    n12 -.->|"0.4984"| n19
-    n12 -.->|"58.1"| n26
-    n13 -.->|"4.984"| n21
-    n14 -.->|"1283"| n5
-    n15 -.->|"124.7"| n0
-    n16 -.->|"1.661"| n1
-    n17 -.->|"91.38"| n4
-    n18 -.->|"303.8"| n7
-    n19 -.->|"4.984"| n13
-    n20 -.->|"1.258"| n3
-    n21 -.->|"16.61"| n8
-    n22 -.->|"0.2492"| n2
-    n23 -->|"5000"| n6
-    n24 -.->|"12.51"| n9
-    n25 -.->|"38.46"| n10
-    n26 -.->|"309.9"| n11
-    n27 -.->|"137.6"| n12
-    class n0,n1,n2,n3,n4,n5,n7,n8,n9,n10,n11,n12,n13,n14,n15,n16,n17,n18,n19,n20,n21,n22,n24,n25,n26,n27 cyclic
-    class n24 resource
-    class n14,n15,n16,n17,n18,n19,n20,n21,n22,n23,n24,n25,n26,n27 active
+    n0(("grain ★"))
+    n1["building_rice_farm<br/>lvl=125 | active"]
+    n1 -->|"5000"| n0
+    class n1 active
     classDef cyclic stroke:#d97706,stroke-width:2px
     classDef resource fill:#dcfce7,stroke:#15803d
     classDef active fill:#dbeafe,stroke:#1d4ed8
