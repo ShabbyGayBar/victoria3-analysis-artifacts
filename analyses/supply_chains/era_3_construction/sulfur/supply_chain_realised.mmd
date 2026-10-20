@@ -1,72 +1,67 @@
 flowchart LR
     n0(("coal"))
     n1(("dye"))
-    n2(("electricity"))
-    n3(("engines"))
-    n4(("explosives"))
-    n5(("fertilizer"))
-    n6(("iron"))
-    n7(("paper"))
-    n8(("rubber"))
-    n9(("steel"))
-    n10(("sulfur ★"))
-    n11(("tools"))
-    n12(("wood"))
-    n13["building_chemical_plants<br/>lvl=0.8861 | active"]
-    n14["building_coal_mine<br/>lvl=5.476 | active"]
-    n15["building_dye_plantation<br/>lvl=0.1241 | active"]
-    n16["building_explosives_factory<br/>lvl=3.101 | active"]
-    n17["building_iron_mine<br/>lvl=1.678 | active"]
-    n18["building_logging_camp<br/>lvl=0.1861 | active"]
-    n19["building_motor_industry<br/>lvl=0.1174 | active"]
-    n20["building_paper_mills<br/>lvl=0.6203 | active"]
-    n21["building_power_plant<br/>lvl=0.01861 | active"]
-    n22["building_rubber_plantation<br/>lvl=0.7782 | active"]
-    n23["building_steel_mills<br/>lvl=1.197 | active"]
-    n24["building_sulfur_mine<br/>lvl=26.96 | active"]
-    n25["building_tooling_workshops<br/>lvl=4.669 | active"]
-    n0 -.->|"25.18"| n17
-    n0 -.->|"35.9"| n23
-    n0 -.->|"404.4"| n24
-    n1 -.->|"6.203"| n20
-    n2 -.->|"0.9304"| n18
-    n3 -.->|"0.6203"| n15
-    n3 -.->|"0.1861"| n21
-    n3 -.->|"3.891"| n22
-    n4 -.->|"54.76"| n14
-    n4 -.->|"16.78"| n17
-    n4 -.->|"269.6"| n24
-    n5 -.->|"124.1"| n16
-    n6 -.->|"26.58"| n13
-    n6 -.->|"107.7"| n23
-    n7 -.->|"62.03"| n16
-    n8 -.->|"46.69"| n25
-    n9 -.->|"3.523"| n19
-    n9 -.->|"140.1"| n25
-    n10 -.->|"26.58"| n13
-    n10 -.->|"124.1"| n16
-    n10 -.->|"6.203"| n20
-    n11 -.->|"82.14"| n14
-    n11 -.->|"25.18"| n17
-    n11 -.->|"1.861"| n18
-    n11 -.->|"404.4"| n24
-    n12 -.->|"18.61"| n20
-    n13 -.->|"124.1"| n5
-    n14 -.->|"465.5"| n0
-    n15 -.->|"6.203"| n1
-    n16 -.->|"341.2"| n4
-    n17 -.->|"134.3"| n6
-    n18 -.->|"18.61"| n12
-    n19 -.->|"4.697"| n3
-    n20 -.->|"62.03"| n7
-    n21 -.->|"0.9304"| n2
-    n22 -.->|"46.69"| n8
-    n23 -.->|"143.6"| n9
-    n24 -.->|"2157"| n10
-    n25 -.->|"513.6"| n11
-    class n0,n1,n2,n3,n4,n5,n6,n7,n8,n9,n10,n11,n12,n13,n14,n15,n16,n17,n18,n19,n20,n21,n22,n23,n24,n25 cyclic
-    class n18,n22 resource
-    class n13,n14,n15,n16,n17,n18,n19,n20,n21,n22,n23,n24,n25 active
+    n2(("engines"))
+    n3(("explosives"))
+    n4(("fertilizer"))
+    n5(("iron"))
+    n6(("paper"))
+    n7(("rubber"))
+    n8(("steel"))
+    n9(("sulfur ★"))
+    n10(("tools"))
+    n11(("wood"))
+    n12["building_chemical_plants<br/>lvl=0.886 | active"]
+    n13["building_coal_mine<br/>lvl=5.475 | active"]
+    n14["building_dye_plantation<br/>lvl=0.124 | active"]
+    n15["building_explosives_factory<br/>lvl=3.101 | active"]
+    n16["building_iron_mine<br/>lvl=1.676 | active"]
+    n17["building_logging_camp<br/>lvl=0.3101 | active"]
+    n18["building_motor_industry<br/>lvl=0.1127 | active"]
+    n19["building_paper_mills<br/>lvl=0.6202 | active"]
+    n20["building_rubber_plantation<br/>lvl=0.7776 | active"]
+    n21["building_steel_mills<br/>lvl=1.195 | active"]
+    n22["building_sulfur_mine<br/>lvl=26.96 | active"]
+    n23["building_tooling_workshops<br/>lvl=4.666 | active"]
+    n0 -.->|"25.14"| n16
+    n0 -.->|"35.84"| n21
+    n0 -.->|"404.4"| n22
+    n1 -.->|"6.202"| n19
+    n2 -.->|"0.6202"| n14
+    n2 -.->|"3.888"| n20
+    n3 -.->|"54.75"| n13
+    n3 -.->|"16.76"| n16
+    n3 -.->|"269.6"| n22
+    n4 -.->|"124"| n15
+    n5 -.->|"26.58"| n12
+    n5 -.->|"107.5"| n21
+    n6 -.->|"62.02"| n15
+    n7 -.->|"46.66"| n23
+    n8 -.->|"3.381"| n18
+    n8 -.->|"140"| n23
+    n9 -.->|"26.58"| n12
+    n9 -.->|"124"| n15
+    n9 -.->|"6.202"| n19
+    n10 -.->|"82.13"| n13
+    n10 -.->|"25.14"| n16
+    n10 -.->|"1.551"| n17
+    n10 -.->|"404.4"| n22
+    n11 -.->|"18.61"| n19
+    n12 -.->|"124"| n4
+    n13 -.->|"465.4"| n0
+    n14 -.->|"6.202"| n1
+    n15 -.->|"341.1"| n3
+    n16 -.->|"134.1"| n5
+    n17 -.->|"18.61"| n11
+    n18 -.->|"4.508"| n2
+    n19 -.->|"62.02"| n6
+    n20 -.->|"46.66"| n7
+    n21 -.->|"143.4"| n8
+    n22 -.->|"2157"| n9
+    n23 -.->|"513.2"| n10
+    class n0,n1,n2,n3,n4,n5,n6,n7,n8,n9,n10,n11,n12,n13,n14,n15,n16,n17,n18,n19,n20,n21,n22,n23 cyclic
+    class n17,n20 resource
+    class n12,n13,n14,n15,n16,n17,n18,n19,n20,n21,n22,n23 active
     classDef cyclic stroke:#d97706,stroke-width:2px
     classDef resource fill:#dcfce7,stroke:#15803d
     classDef active fill:#dbeafe,stroke:#1d4ed8
