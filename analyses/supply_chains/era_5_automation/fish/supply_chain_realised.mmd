@@ -1,80 +1,122 @@
 flowchart LR
     n0(("coal"))
-    n1(("electricity"))
-    n2(("engines"))
-    n3(("fish ★"))
-    n4(("iron"))
-    n5(("oil"))
-    n6(("steamers"))
-    n7(("steel"))
-    n8(("tools"))
-    n9(("transportation"))
-    n10(("wood"))
-    n11["building_coal_mine<br/>lvl=9.552 | active"]
-    n12["building_fishing_wharf<br/>lvl=50 | active"]
-    n13["building_iron_mine<br/>lvl=2.435 | active"]
-    n14["building_logging_camp<br/>lvl=0.7699 | active"]
-    n15["building_motor_industry<br/>lvl=1.861 | active"]
-    n16["building_oil_rig<br/>lvl=3.969 | active"]
-    n17["building_power_plant<br/>lvl=3.472 | active"]
-    n18["building_railway<br/>lvl=3.506 | active"]
-    n19["building_shipyards<br/>lvl=3.125 | active"]
-    n20["building_steel_mills<br/>lvl=1.704 | active"]
-    n21["building_tooling_workshops<br/>lvl=2.566 | active"]
-    n0 -->|"750"| n12
-    n0 -.->|"9.739"| n13
-    n0 -.->|"3.08"| n14
-    n0 -.->|"68.17"| n20
-    n1 -->|"350"| n12
-    n1 -.->|"3.85"| n14
-    n1 -.->|"9.303"| n15
-    n1 -->|"93.75"| n19
-    n1 -.->|"51.13"| n20
-    n1 -.->|"12.83"| n21
-    n2 -.->|"9.552"| n11
-    n2 -.->|"2.435"| n13
-    n2 -.->|"0.7699"| n14
-    n2 -.->|"39.69"| n16
-    n2 -.->|"69.45"| n17
-    n2 -.->|"70.12"| n18
-    n2 -->|"31.25"| n19
-    n4 -.->|"170.4"| n20
-    n5 -.->|"47.76"| n11
-    n5 -.->|"12.17"| n13
-    n5 -.->|"102.3"| n15
-    n5 -.->|"138.9"| n17
-    n5 -.->|"70.12"| n18
-    n5 -.->|"25.66"| n21
-    n6 -->|"250"| n12
-    n7 -.->|"93.03"| n15
-    n7 -.->|"17.53"| n18
-    n7 -->|"93.75"| n19
-    n7 -.->|"51.33"| n21
-    n8 -.->|"143.3"| n11
-    n8 -.->|"36.52"| n13
-    n8 -.->|"7.699"| n14
-    n8 -.->|"9.303"| n15
-    n8 -.->|"8.521"| n20
-    n9 -.->|"47.76"| n11
-    n9 -->|"350"| n12
-    n9 -.->|"12.17"| n13
-    n9 -.->|"6.16"| n14
-    n9 -.->|"39.69"| n16
-    n10 -.->|"76.99"| n21
-    n11 -.->|"831"| n0
-    n12 -->|"5000"| n3
-    n13 -.->|"170.4"| n4
-    n14 -.->|"76.99"| n10
-    n15 -.->|"223.3"| n2
-    n16 -.->|"396.9"| n5
-    n17 -.->|"520.9"| n1
-    n18 -.->|"455.8"| n9
-    n19 -->|"250"| n6
-    n20 -.->|"255.6"| n7
-    n21 -.->|"205.3"| n8
-    class n0,n1,n2,n4,n5,n7,n8,n9,n10,n11,n13,n14,n15,n16,n17,n18,n20,n21 cyclic
-    class n16 resource
-    class n11,n12,n13,n14,n15,n16,n17,n18,n19,n20,n21 active
+    n1(("dye"))
+    n2(("electricity"))
+    n3(("engines"))
+    n4(("explosives"))
+    n5(("fertilizer"))
+    n6(("fish ★"))
+    n7(("iron"))
+    n8(("oil"))
+    n9(("paper"))
+    n10(("rubber"))
+    n11(("steamers"))
+    n12(("steel"))
+    n13(("sulfur"))
+    n14(("tools"))
+    n15(("transportation"))
+    n16(("wood"))
+    n17["building_chemical_plants<br/>lvl=0.165 | active"]
+    n18["building_coal_mine<br/>lvl=7.401 | active"]
+    n19["building_explosives_factory<br/>lvl=0.6455 | active"]
+    n20["building_fishing_wharf<br/>lvl=50 | active"]
+    n21["building_iron_mine<br/>lvl=1.933 | active"]
+    n22["building_logging_camp<br/>lvl=0.05809 | active"]
+    n23["building_motor_industry<br/>lvl=1.582 | active"]
+    n24["building_oil_rig<br/>lvl=3.713 | active"]
+    n25["building_paper_mills<br/>lvl=0.1936 | active"]
+    n26["building_power_plant<br/>lvl=3.482 | active"]
+    n27["building_railway<br/>lvl=7.969 | active"]
+    n28["building_rubber_plantation<br/>lvl=0.4532 | active"]
+    n29["building_shipyards<br/>lvl=3.125 | active"]
+    n30["building_steel_mills<br/>lvl=1.69 | active"]
+    n31["building_sulfur_mine<br/>lvl=0.3484 | active"]
+    n32["building_synthetics_plants<br/>lvl=0.0242 | active"]
+    n33["building_tooling_workshops<br/>lvl=1.359 | active"]
+    n0 -->|"750"| n20
+    n0 -.->|"7.731"| n21
+    n0 -.->|"0.2324"| n22
+    n0 -.->|"1.936"| n25
+    n0 -.->|"67.6"| n30
+    n0 -.->|"1.394"| n31
+    n1 -.->|"1.936"| n25
+    n2 -.->|"12.91"| n19
+    n2 -->|"350"| n20
+    n2 -.->|"0.2905"| n22
+    n2 -.->|"7.912"| n23
+    n2 -->|"93.75"| n29
+    n2 -.->|"50.7"| n30
+    n2 -.->|"6.797"| n33
+    n3 -.->|"7.401"| n18
+    n3 -.->|"1.933"| n21
+    n3 -.->|"0.05809"| n22
+    n3 -.->|"37.13"| n24
+    n3 -.->|"69.65"| n26
+    n3 -.->|"39.84"| n27
+    n3 -.->|"2.266"| n28
+    n3 -->|"31.25"| n29
+    n3 -.->|"0.3484"| n31
+    n4 -.->|"74.01"| n18
+    n4 -.->|"19.33"| n21
+    n4 -.->|"3.484"| n31
+    n5 -.->|"32.27"| n19
+    n5 -.->|"0.7261"| n32
+    n7 -.->|"4.95"| n17
+    n7 -.->|"169"| n30
+    n8 -.->|"3.3"| n17
+    n8 -.->|"37"| n18
+    n8 -.->|"9.664"| n21
+    n8 -.->|"87.03"| n23
+    n8 -.->|"139.3"| n26
+    n8 -.->|"79.69"| n27
+    n8 -.->|"1.742"| n31
+    n8 -.->|"13.59"| n33
+    n9 -.->|"19.36"| n19
+    n10 -.->|"27.19"| n33
+    n11 -->|"250"| n20
+    n12 -.->|"79.12"| n23
+    n12 -.->|"39.84"| n27
+    n12 -->|"93.75"| n29
+    n12 -.->|"40.78"| n33
+    n13 -.->|"6.6"| n17
+    n13 -.->|"25.82"| n19
+    n13 -.->|"1.936"| n25
+    n13 -.->|"0.4841"| n32
+    n14 -.->|"111"| n18
+    n14 -.->|"28.99"| n21
+    n14 -.->|"0.5809"| n22
+    n14 -.->|"7.912"| n23
+    n14 -.->|"0.9682"| n25
+    n14 -.->|"8.45"| n30
+    n14 -.->|"5.226"| n31
+    n15 -.->|"37"| n18
+    n15 -->|"350"| n20
+    n15 -.->|"9.664"| n21
+    n15 -.->|"0.4647"| n22
+    n15 -.->|"37.13"| n24
+    n15 -.->|"2.266"| n28
+    n15 -.->|"1.742"| n31
+    n16 -.->|"5.809"| n25
+    n17 -.->|"33"| n5
+    n18 -.->|"828.9"| n0
+    n19 -.->|"96.82"| n4
+    n20 -->|"5000"| n6
+    n21 -.->|"173.9"| n7
+    n22 -.->|"5.809"| n16
+    n23 -.->|"189.9"| n3
+    n24 -.->|"371.3"| n8
+    n25 -.->|"19.36"| n9
+    n26 -.->|"522.4"| n2
+    n27 -.->|"438.3"| n15
+    n28 -.->|"27.19"| n10
+    n29 -->|"250"| n11
+    n30 -.->|"253.5"| n12
+    n31 -.->|"34.84"| n13
+    n32 -.->|"1.936"| n1
+    n33 -.->|"163.1"| n14
+    class n0,n1,n2,n3,n4,n5,n7,n8,n9,n10,n12,n13,n14,n15,n16,n17,n18,n19,n21,n22,n23,n24,n25,n26,n27,n28,n30,n31,n32,n33 cyclic
+    class n24,n28 resource
+    class n17,n18,n19,n20,n21,n22,n23,n24,n25,n26,n27,n28,n29,n30,n31,n32,n33 active
     classDef cyclic stroke:#d97706,stroke-width:2px
     classDef resource fill:#dcfce7,stroke:#15803d
     classDef active fill:#dbeafe,stroke:#1d4ed8

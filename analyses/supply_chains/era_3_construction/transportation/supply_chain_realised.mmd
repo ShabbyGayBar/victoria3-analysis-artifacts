@@ -1,60 +1,10 @@
 flowchart LR
-    n0(("coal"))
-    n1(("electricity"))
-    n2(("engines"))
-    n3(("explosives"))
-    n4(("fertilizer"))
-    n5(("iron"))
-    n6(("steel"))
-    n7(("sulfur"))
-    n8(("tools"))
-    n9(("transportation ★"))
-    n10(("wood"))
-    n11["building_chemical_plants<br/>lvl=1.237 | active"]
-    n12["building_coal_mine<br/>lvl=9.194 | active"]
-    n13["building_iron_mine<br/>lvl=6.27 | active"]
-    n14["building_logging_camp<br/>lvl=0.958 | active"]
-    n15["building_motor_industry<br/>lvl=10.44 | active"]
-    n16["building_power_plant<br/>lvl=0.0958 | active"]
-    n17["building_railway<br/>lvl=41.67 | active"]
-    n18["building_steel_mills<br/>lvl=4.878 | active"]
-    n19["building_sulfur_mine<br/>lvl=0.9278 | active"]
-    n20["building_tooling_workshops<br/>lvl=3.193 | active"]
-    n0 -.->|"18.56"| n11
-    n0 -.->|"94.05"| n13
-    n0 -->|"416.7"| n17
-    n0 -.->|"146.4"| n18
-    n0 -.->|"13.92"| n19
-    n1 -.->|"4.79"| n14
-    n2 -.->|"0.958"| n16
-    n2 -->|"416.7"| n17
-    n3 -.->|"45.97"| n12
-    n3 -.->|"31.35"| n13
-    n3 -.->|"9.278"| n19
-    n5 -.->|"12.37"| n11
-    n5 -.->|"439.1"| n18
-    n6 -.->|"313.2"| n15
-    n6 -->|"208.3"| n17
-    n6 -.->|"63.86"| n20
-    n7 -.->|"74.23"| n11
-    n8 -.->|"137.9"| n12
-    n8 -.->|"94.05"| n13
-    n8 -.->|"9.58"| n14
-    n8 -.->|"13.92"| n19
-    n10 -.->|"95.8"| n20
-    n11 -.->|"86.6"| n3
-    n11 -->|"74.23"| n4
-    n12 -.->|"689.5"| n0
-    n13 -.->|"451.4"| n5
-    n14 -.->|"95.8"| n10
-    n15 -.->|"417.6"| n2
-    n16 -.->|"4.79"| n1
-    n17 -->|"3333"| n9
-    n18 -.->|"585.4"| n6
-    n19 -.->|"74.23"| n7
-    n20 -.->|"255.5"| n8
-    class n0,n1,n2,n3,n5,n6,n7,n8,n10,n11,n12,n13,n14,n15,n16,n18,n19,n20 cyclic
-    class n11,n12,n13,n14,n15,n16,n17,n18,n19,n20 active
+    n0(("services"))
+    n1(("transportation ★"))
+    n2["building_urban_center<br/>lvl=666.7 | active"]
+    n2 -->|"1e+04"| n0
+    n2 -->|"3333"| n1
+    class n2 active
     classDef cyclic stroke:#d97706,stroke-width:2px
     classDef resource fill:#dcfce7,stroke:#15803d
     classDef active fill:#dbeafe,stroke:#1d4ed8

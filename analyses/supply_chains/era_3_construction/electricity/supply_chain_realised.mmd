@@ -1,54 +1,72 @@
 flowchart LR
     n0(("coal"))
-    n1(("electricity ★"))
-    n2(("engines"))
-    n3(("explosives"))
-    n4(("fertilizer"))
-    n5(("iron"))
-    n6(("steel"))
-    n7(("sulfur"))
-    n8(("tools"))
-    n9(("wood"))
-    n10["building_chemical_plants<br/>lvl=0.7096 | active"]
-    n11["building_coal_mine<br/>lvl=3.177 | active"]
-    n12["building_iron_mine<br/>lvl=5.693 | active"]
-    n13["building_logging_camp<br/>lvl=0.5495 | active"]
-    n14["building_motor_industry<br/>lvl=16.68 | active"]
-    n15["building_power_plant<br/>lvl=66.72 | active"]
-    n16["building_steel_mills<br/>lvl=4.475 | active"]
-    n17["building_sulfur_mine<br/>lvl=0.5322 | active"]
-    n18["building_tooling_workshops<br/>lvl=1.832 | active"]
-    n0 -.->|"10.64"| n10
-    n0 -.->|"85.39"| n12
-    n0 -.->|"134.3"| n16
-    n0 -.->|"7.983"| n17
-    n1 -.->|"2.747"| n13
-    n2 -.->|"667.2"| n15
-    n3 -.->|"15.89"| n11
-    n3 -.->|"28.46"| n12
-    n3 -.->|"5.322"| n17
-    n5 -.->|"7.096"| n10
-    n5 -.->|"402.8"| n16
-    n6 -.->|"500.4"| n14
-    n6 -.->|"36.63"| n18
-    n7 -.->|"42.58"| n10
-    n8 -.->|"47.66"| n11
-    n8 -.->|"85.39"| n12
-    n8 -.->|"5.495"| n13
-    n8 -.->|"7.983"| n17
-    n9 -.->|"54.95"| n18
-    n10 -.->|"49.67"| n3
-    n10 -->|"42.58"| n4
-    n11 -.->|"238.3"| n0
-    n12 -.->|"409.9"| n5
-    n13 -.->|"54.95"| n9
-    n14 -.->|"667.2"| n2
-    n15 -.->|"3336"| n1
-    n16 -.->|"537"| n6
-    n17 -.->|"42.58"| n7
-    n18 -.->|"146.5"| n8
-    class n0,n1,n2,n3,n5,n6,n7,n8,n9,n10,n11,n12,n13,n14,n15,n16,n17,n18 cyclic
-    class n10,n11,n12,n13,n14,n15,n16,n17,n18 active
+    n1(("dye"))
+    n2(("electricity ★"))
+    n3(("engines"))
+    n4(("explosives"))
+    n5(("fertilizer"))
+    n6(("iron"))
+    n7(("paper"))
+    n8(("rubber"))
+    n9(("steel"))
+    n10(("sulfur"))
+    n11(("tools"))
+    n12(("wood"))
+    n13["building_chemical_plants<br/>lvl=0.2095 | active"]
+    n14["building_coal_mine<br/>lvl=2.539 | active"]
+    n15["building_dye_plantation<br/>lvl=0.02933 | active"]
+    n16["building_explosives_factory<br/>lvl=0.7334 | active"]
+    n17["building_iron_mine<br/>lvl=5.064 | active"]
+    n18["building_logging_camp<br/>lvl=0.044 | active"]
+    n19["building_motor_industry<br/>lvl=16.71 | active"]
+    n20["building_paper_mills<br/>lvl=0.1467 | active"]
+    n21["building_power_plant<br/>lvl=66.67 | active"]
+    n22["building_rubber_plantation<br/>lvl=0.3373 | active"]
+    n23["building_steel_mills<br/>lvl=4.431 | active"]
+    n24["building_sulfur_mine<br/>lvl=0.4636 | active"]
+    n25["building_tooling_workshops<br/>lvl=1.012 | active"]
+    n0 -.->|"75.96"| n17
+    n0 -.->|"132.9"| n23
+    n0 -.->|"6.954"| n24
+    n1 -.->|"1.467"| n20
+    n2 -.->|"0.22"| n18
+    n3 -.->|"0.1467"| n15
+    n3 -.->|"666.7"| n21
+    n3 -.->|"1.687"| n22
+    n4 -.->|"25.39"| n14
+    n4 -.->|"50.64"| n17
+    n4 -.->|"4.636"| n24
+    n5 -.->|"29.33"| n16
+    n6 -.->|"6.286"| n13
+    n6 -.->|"398.8"| n23
+    n7 -.->|"14.67"| n16
+    n8 -.->|"20.24"| n25
+    n9 -.->|"501.4"| n19
+    n9 -.->|"30.36"| n25
+    n10 -.->|"6.286"| n13
+    n10 -.->|"29.33"| n16
+    n10 -.->|"1.467"| n20
+    n11 -.->|"38.09"| n14
+    n11 -.->|"75.96"| n17
+    n11 -.->|"0.44"| n18
+    n11 -.->|"6.954"| n24
+    n12 -.->|"4.4"| n20
+    n13 -.->|"29.33"| n5
+    n14 -.->|"215.9"| n0
+    n15 -.->|"1.467"| n1
+    n16 -.->|"80.67"| n4
+    n17 -.->|"405.1"| n6
+    n18 -.->|"4.4"| n12
+    n19 -.->|"668.5"| n3
+    n20 -.->|"14.67"| n7
+    n21 -.->|"3334"| n2
+    n22 -.->|"20.24"| n8
+    n23 -.->|"531.8"| n9
+    n24 -.->|"37.09"| n10
+    n25 -.->|"121.4"| n11
+    class n0,n1,n2,n3,n4,n5,n6,n7,n8,n9,n10,n11,n12,n13,n14,n15,n16,n17,n18,n19,n20,n21,n22,n23,n24,n25 cyclic
+    class n22 resource
+    class n13,n14,n15,n16,n17,n18,n19,n20,n21,n22,n23,n24,n25 active
     classDef cyclic stroke:#d97706,stroke-width:2px
     classDef resource fill:#dcfce7,stroke:#15803d
     classDef active fill:#dbeafe,stroke:#1d4ed8

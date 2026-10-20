@@ -94,11 +94,11 @@ gantry_cranes,3,gfx/interface/icons/invention_icons/gantry_crane.dds,military,,h
 trench_works,4,gfx/interface/icons/invention_icons/trench_works.dds,military,,electric_telegraph
 war_propaganda,4,gfx/interface/icons/invention_icons/war_propaganda.dds,military,,enlistment_offices
 wargaming,4,gfx/interface/icons/invention_icons/wargaming.dds,military,,military_statistics
-defense_in_depth,4,gfx/interface/icons/invention_icons/defense_in_depth.dds,military,,trench_works
+defense_in_depth,4,gfx/interface/icons/invention_icons/defense_in_depth.dds,military,,handcranked_machine_gun
 bolt_action_rifles,4,gfx/interface/icons/invention_icons/bolt_action_rifles.dds,military,,repeaters
 automatic_machine_guns,4,gfx/interface/icons/invention_icons/machine_gun.dds,military,,bolt_action_rifles
 submarine,4,gfx/interface/icons/invention_icons/submarine.dds,military,,self_propelled_torpedoes
-destroyer,4,gfx/interface/icons/invention_icons/destroyers.dds,military,,ironclad_tech
+destroyer,4,gfx/interface/icons/invention_icons/destroyers.dds,military,,monitor_tech
 dreadnought,4,gfx/interface/icons/invention_icons/dreadnought.dds,military,,sea_lane_strategies
 sea_lane_strategies,4,gfx/interface/icons/invention_icons/sea_lane_strategies.dds,military,,jeune_ecole
 landing_craft,4,gfx/interface/icons/invention_icons/landing_craft.dds,military,,monitor_tech
@@ -122,6 +122,7 @@ democracy,1,gfx/interface/icons/invention_icons/democracy.dds,society,,rationali
 romanticism,1,gfx/interface/icons/invention_icons/romanticism.dds,society,,academia
 international_trade,1,gfx/interface/icons/invention_icons/international_trade.dds,society,,tech_bureaucracy
 centralization,1,gfx/interface/icons/invention_icons/centralization.dds,society,,tech_bureaucracy
+corporate_charters,2,gfx/interface/icons/invention_icons/corporate_charters.dds,society,,stock_exchange
 banking,1,gfx/interface/icons/invention_icons/banking.dds,society,,currency_standards
 academia,1,gfx/interface/icons/invention_icons/academia.dds,society,,rationalism
 colonization,1,gfx/interface/icons/invention_icons/colonization.dds,society,,international_relations
@@ -138,6 +139,7 @@ quinine,2,gfx/interface/icons/invention_icons/quinine.dds,society,,pharmaceutica
 organized_sports,2,gfx/interface/icons/invention_icons/organized_sports.dds,society,,nationalism
 central_archives,2,gfx/interface/icons/invention_icons/central_archives.dds,society,,centralization
 central_banking,2,gfx/interface/icons/invention_icons/central_banking.dds,society,,banking
+joint_stock_companies,2,gfx/interface/icons/invention_icons/joint_stock_companies.dds,society,,corporate_charters
 dialectics,2,gfx/interface/icons/invention_icons/dialectics.dds,society,,empiricism
 psychiatry,2,gfx/interface/icons/invention_icons/psychiatry.dds,society,,empiricism
 realism,2,gfx/interface/icons/invention_icons/realism.dds,society,,romanticism
@@ -150,8 +152,10 @@ steel_frame_buildings,3,gfx/interface/icons/invention_icons/steel_frame_building
 civilizing_mission,3,gfx/interface/icons/invention_icons/civilizing_mission.dds,society,,nationalism
 anarchism,3,gfx/interface/icons/invention_icons/anarchy.dds,society,,egalitarianism
 socialism,3,gfx/interface/icons/invention_icons/socialism.dds,society,,dialectics
+corporatism,3,gfx/interface/icons/invention_icons/corporatism.dds,society,,nationalism
 pan-nationalism,3,gfx/interface/icons/invention_icons/pan_nationalism.dds,society,,nationalism
 mutual_funds,3,gfx/interface/icons/invention_icons/mutual_funds.dds,society,,postal_savings
+investment_banks,3,gfx/interface/icons/invention_icons/investment_banks.dds,society,,mutual_funds
 camera,3,gfx/interface/icons/invention_icons/camera.dds,society,,realism
 philosophical_pragmatism,3,gfx/interface/icons/invention_icons/philosophical_pragmatism.dds,society,,psychiatry
 identification_documents,3,gfx/interface/icons/invention_icons/identification_documents.dds,society,,central_archives
@@ -159,8 +163,9 @@ elevator,4,gfx/interface/icons/invention_icons/elevator.dds,society,,steel_frame
 zeppelins,4,gfx/interface/icons/invention_icons/zeppelins.dds,society,,steel_frame_buildings
 malaria_prevention,4,gfx/interface/icons/invention_icons/malaria_prevention.dds,society,,civilizing_mission
 central_planning,4,gfx/interface/icons/invention_icons/central_planning.dds,society,,identification_documents
-political_agitation,4,gfx/interface/icons/invention_icons/political_agitation.dds,society,,pan-nationalism
+political_agitation,4,gfx/interface/icons/invention_icons/political_agitation.dds,society,,corporatism
 international_exchange_standards,4,gfx/interface/icons/invention_icons/international_exchange_standards.dds,society,,mutual_funds
+corporate_management,4,gfx/interface/icons/invention_icons/corporate_management.dds,society,,investment_banks
 psychoanalysis,4,gfx/interface/icons/invention_icons/psychoanalysis.dds,society,,philosophical_pragmatism
 film,4,gfx/interface/icons/invention_icons/film.dds,society,,camera
 multilateral_alliances,4,gfx/interface/icons/invention_icons/multilateral_alliances.dds,society,,pan-nationalism
@@ -168,7 +173,7 @@ mass_surveillance,5,gfx/interface/icons/invention_icons/mass_surveillance.dds,so
 antibiotics,5,gfx/interface/icons/invention_icons/antibiotics.dds,society,,malaria_prevention
 mass_propaganda,5,gfx/interface/icons/invention_icons/mass_propaganda.dds,society,,film
 modern_financial_instruments,5,gfx/interface/icons/invention_icons/modern_financial_instruments.dds,society,,international_exchange_standards
-macroeconomics,5,gfx/interface/icons/invention_icons/macroeconomics.dds,society,,international_exchange_standards
+macroeconomics,5,gfx/interface/icons/invention_icons/macroeconomics.dds,society,,corporate_management
 behaviorism,5,gfx/interface/icons/invention_icons/behaviorism.dds,society,,psychoanalysis
 analytical_philosophy,5,gfx/interface/icons/invention_icons/analytical_philosophy.dds,society,,psychoanalysis
 paved_roads,5,gfx/interface/icons/invention_icons/paved_roads.dds,society,,elevator
