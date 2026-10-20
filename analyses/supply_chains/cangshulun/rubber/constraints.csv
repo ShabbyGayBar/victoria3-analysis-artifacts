@@ -16,7 +16,7 @@ inequality,import_limit,furniture,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,paper,0.0,0.0,0.0,0.0,True,-69.96314766708775,69.96314766708775
 inequality,import_limit,services,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,transportation,0.0,0.0,0.0,0.0,True,-126.51969323712484,126.51969323712484
-inequality,import_limit,electricity,1.4210854715202004e-14,0.0,-1.4210854715202004e-14,0.0,True,-85.85911559618731,85.85911559618731
+inequality,import_limit,electricity,0.0,0.0,0.0,0.0,True,-85.85911559618731,85.85911559618731
 inequality,import_limit,clippers,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,steamers,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,silk,0.0,0.0,0.0,0.0,True,-0.0,0.0
@@ -28,8 +28,8 @@ inequality,import_limit,lead,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,hardwood,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,rubber,-2500.0,0.0,2500.0,0.0,False,-0.0,0.0
 inequality,import_limit,oil,3.552713678800501e-15,0.0,-3.552713678800501e-15,0.0,True,-56.262814133135386,56.262814133135386
-inequality,import_limit,engines,0.0,0.0,0.0,0.0,True,-136.108448094229,136.108448094229
-inequality,import_limit,steel,-1.4210854715202004e-14,0.0,1.4210854715202004e-14,0.0,True,-98.8443037015738,98.8443037015738
+inequality,import_limit,engines,-2.842170943040401e-14,0.0,2.842170943040401e-14,0.0,True,-136.108448094229,136.108448094229
+inequality,import_limit,steel,-2.4868995751603507e-14,0.0,2.4868995751603507e-14,0.0,True,-98.8443037015738,98.8443037015738
 inequality,import_limit,glass,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,fertilizer,-1.7763568394002505e-15,0.0,1.7763568394002505e-15,0.0,True,-64.4762205032101,64.4762205032101
 inequality,import_limit,tools,-3.552713678800501e-15,0.0,3.552713678800501e-15,0.0,True,-62.2070571042633,62.2070571042633

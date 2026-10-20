@@ -9,14 +9,14 @@ inequality,import_limit,ironclads,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,grain,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,fish,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,fabric,0.0,0.0,0.0,0.0,True,-0.0,0.0
-inequality,import_limit,wood,2.498001805406602e-16,0.0,-2.498001805406602e-16,0.0,True,-4.183966821768452,4.183966821768452
+inequality,import_limit,wood,0.0,0.0,0.0,0.0,True,-4.183966821768452,4.183966821768452
 inequality,import_limit,groceries,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,clothes,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,furniture,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,paper,-8.881784197001252e-16,0.0,8.881784197001252e-16,0.0,True,-9.04572038854369,9.04572038854369
 inequality,import_limit,services,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,transportation,0.0,0.0,0.0,0.0,True,-0.0,0.0
-inequality,import_limit,electricity,2.0816681711721685e-17,0.0,-2.0816681711721685e-17,0.0,True,-22.517158214579926,22.517158214579926
+inequality,import_limit,electricity,0.0,0.0,0.0,0.0,True,-22.517158214579926,22.517158214579926
 inequality,import_limit,clippers,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,steamers,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,silk,0.0,0.0,0.0,0.0,True,-0.0,0.0
@@ -28,7 +28,7 @@ inequality,import_limit,lead,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,hardwood,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,rubber,0.0,0.0,0.0,0.0,True,-6.048815922741635,6.048815922741635
 inequality,import_limit,oil,0.0,0.0,0.0,0.0,True,-0.0,0.0
-inequality,import_limit,engines,-2.4868995751603507e-14,0.0,2.4868995751603507e-14,0.0,True,-32.585791072899625,32.585791072899625
+inequality,import_limit,engines,-2.350897254643769e-14,0.0,2.350897254643769e-14,0.0,True,-32.585791072899625,32.585791072899625
 inequality,import_limit,steel,1.2434497875801753e-14,0.0,-1.2434497875801753e-14,0.0,True,-16.781054763866162,16.781054763866162
 inequality,import_limit,glass,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,fertilizer,-1.7763568394002505e-15,0.0,1.7763568394002505e-15,0.0,True,-10.277167562646389,10.277167562646389
@@ -69,7 +69,7 @@ equality,banned_building_groups,bg_canals,0.0,0.0,,0.0,True,5233.571582858044,
 equality,banned_building_groups,bg_trade,0.0,0.0,,0.0,True,-0.0,
 equality,banned_building_groups,bg_manor_houses,0.0,0.0,,0.0,True,-0.0,
 equality,banned_building_groups,bg_financial_districts,0.0,0.0,,0.0,True,-0.0,
-equality,banned_building_groups,bg_subsistence_agriculture,0.0,0.0,,0.0,True,-3.137975116326339,
+equality,banned_building_groups,bg_subsistence_agriculture,0.0,0.0,,0.0,True,-5.229958527210565,
 equality,banned_building_groups,bg_subsistence_ranching,0.0,0.0,,0.0,True,-0.0,
 equality,banned_building_groups,bg_construction,0.0,0.0,,0.0,True,-0.0,
 equality,banned_building_groups,bg_company_headquarter,0.0,0.0,,0.0,True,-0.0,

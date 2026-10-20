@@ -9,14 +9,14 @@ inequality,import_limit,ironclads,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,grain,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,fish,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,fabric,0.0,0.0,0.0,0.0,True,-0.0,0.0
-inequality,import_limit,wood,-8.326672684688674e-17,0.0,8.326672684688674e-17,0.0,True,-4.183966821768451,4.183966821768451
+inequality,import_limit,wood,0.0,0.0,0.0,0.0,True,-4.183966821768451,4.183966821768451
 inequality,import_limit,groceries,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,clothes,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,furniture,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,paper,-2.220446049250313e-16,0.0,2.220446049250313e-16,0.0,True,-9.045720388543689,9.045720388543689
 inequality,import_limit,services,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,transportation,0.0,0.0,0.0,0.0,True,-0.0,0.0
-inequality,import_limit,electricity,-6.938893903907228e-18,0.0,6.938893903907228e-18,0.0,True,-22.517158214579922,22.517158214579922
+inequality,import_limit,electricity,0.0,0.0,0.0,0.0,True,-22.517158214579922,22.517158214579922
 inequality,import_limit,clippers,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,steamers,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,silk,0.0,0.0,0.0,0.0,True,-0.0,0.0
@@ -69,7 +69,7 @@ equality,banned_building_groups,bg_canals,0.0,0.0,,0.0,True,5233.571582858044,
 equality,banned_building_groups,bg_trade,0.0,0.0,,0.0,True,-0.0,
 equality,banned_building_groups,bg_manor_houses,0.0,0.0,,0.0,True,-0.0,
 equality,banned_building_groups,bg_financial_districts,0.0,0.0,,0.0,True,-0.0,
-equality,banned_building_groups,bg_subsistence_agriculture,0.0,0.0,,0.0,True,-3.1379751163263387,
+equality,banned_building_groups,bg_subsistence_agriculture,0.0,0.0,,0.0,True,-5.229958527210564,
 equality,banned_building_groups,bg_subsistence_ranching,0.0,0.0,,0.0,True,-0.0,
 equality,banned_building_groups,bg_construction,0.0,0.0,,0.0,True,-0.0,
 equality,banned_building_groups,bg_company_headquarter,0.0,0.0,,0.0,True,-0.0,
