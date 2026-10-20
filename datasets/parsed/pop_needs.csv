@@ -25,7 +25,7 @@ popneed_luxury_drinks,tea,1.0,0.75,0.0,True
 popneed_luxury_drinks,coffee,1.0,0.75,0.0,False
 popneed_luxury_drinks,wine,1.0,0.75,0.0,False
 popneed_free_movement,transportation,1.0,0.75,0.0,True
-popneed_free_movement,automobiles,2.0,1.0,0.0,False
+popneed_free_movement,automobiles,1.25,1.0,0.0,False
 popneed_communication,transportation,1.0,0.75,0.0,True
 popneed_communication,telephones,2.0,1.0,0.0,False
 popneed_luxury_food,meat,1.0,0.75,0.1,True
@@ -36,5 +36,13 @@ popneed_luxury_items,luxury_clothes,1.0,0.5,0.1,True
 popneed_luxury_items,luxury_furniture,1.0,0.5,0.1,False
 popneed_luxury_items,porcelain,1.0,0.5,0.1,False
 popneed_luxury_items,radios,1.0,0.5,0.0,False
-popneed_art,services,0.5,1.0,0.0,True
-popneed_art,fine_art,1.0,1.0,0.0,False
+popneed_leisure,services,0.1,1.0,0.0,True
+popneed_leisure,fine_art,4.0,1.0,0.0,False
+popneed_leisure,small_arms,0.75,0.25,0.0,False
+popneed_leisure,aeroplanes,1.0,0.2,0.0,False
+popneed_leisure,automobiles,1.0,0.25,0.0,False
+popneed_leisure,radios,1.0,0.2,0.0,False
+popneed_leisure,wine,1.0,0.2,0.0,False
+popneed_leisure,opium,0.5,0.5,0.0,False
+popneed_leisure,clippers,1.0,0.25,0.0,False
+popneed_leisure,steamers,0.75,0.25,0.0,False
