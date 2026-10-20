@@ -16,13 +16,13 @@ inequality,import_limit,furniture,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,paper,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,services,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,transportation,1.1368683772161603e-13,0.0,-1.1368683772161603e-13,0.0,True,-70.70171418670294,70.70171418670294
-inequality,import_limit,electricity,-1.0658141036401503e-14,0.0,1.0658141036401503e-14,0.0,True,-81.14461082169987,81.14461082169987
+inequality,import_limit,electricity,-2.842170943040401e-14,0.0,2.842170943040401e-14,0.0,True,-81.14461082169987,81.14461082169987
 inequality,import_limit,clippers,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,steamers,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,silk,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,dye,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,sulfur,0.0,0.0,0.0,0.0,True,-14.523417581234241,14.523417581234241
-inequality,import_limit,coal,1.9628743075372768e-13,0.0,-1.9628743075372768e-13,0.0,True,-43.91626817758402,43.91626817758402
+inequality,import_limit,coal,1.9895196601282805e-13,0.0,-1.9895196601282805e-13,0.0,True,-43.91626817758402,43.91626817758402
 inequality,import_limit,iron,0.0,0.0,0.0,0.0,True,-57.09114863085931,57.09114863085931
 inequality,import_limit,lead,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,hardwood,0.0,0.0,0.0,0.0,True,-0.0,0.0
@@ -51,7 +51,7 @@ inequality,import_limit,luxury_clothes,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,luxury_furniture,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,gold,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,fine_art,0.0,0.0,0.0,0.0,True,-0.0,0.0
-inequality,produce,wine,-2000.0,-2000.0,0.0,0.0,True,-369.89721822503117,369.89721822503117
+inequality,produce,wine,-2000.0,-2000.0,0.0,0.0,True,-394.89721822503117,394.89721822503117
 inequality,building_limits,building_dye_plantation,0.0,0.0,0.0,0.0,True,-0.0,0.0
 equality,era_cap,era_cap,0.0,0.0,,0.0,True,-0.0,
 equality,banned_pms,pm_diesel_engines+pm_oil-fired_plant+pm_houseware_plastics+pm_nitrogen_fixation+pm_assembly_lines_building_tooling_workshop+pm_bolt_action_rifles+pm_assembly_lines_building_arms_industry+pm_recoiled_barrels+pm_assembly_lines_building_arms_industry+pm_assembly_lines_building_munition_plant+pm_modern_port+pm_diesel_trains_principle_transport_3+pm_diesel_trains+pm_vacuum_canning+pm_vacuum_canning_principle_3+pm_assembly_lines_building_furniture_manufactory+pm_automatic_bottle_blowers+pm_assembly_lines_building_motor_industry+pm_chainsaws+pm_compression_ignition_tractors,0.0,0.0,,0.0,True,-4242.880928157455,

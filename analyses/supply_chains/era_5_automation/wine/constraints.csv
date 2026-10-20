@@ -16,7 +16,7 @@ inequality,import_limit,furniture,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,paper,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,services,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,transportation,-7.105427357601002e-15,0.0,7.105427357601002e-15,0.0,True,-52.43136850815449,52.43136850815449
-inequality,import_limit,electricity,1.354472090042691e-14,0.0,-1.354472090042691e-14,0.0,True,-55.28092160938724,55.28092160938724
+inequality,import_limit,electricity,1.4210854715202004e-14,0.0,-1.4210854715202004e-14,0.0,True,-55.28092160938724,55.28092160938724
 inequality,import_limit,clippers,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,steamers,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,silk,0.0,0.0,0.0,0.0,True,-0.0,0.0
@@ -28,7 +28,7 @@ inequality,import_limit,lead,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,hardwood,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,rubber,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,oil,2.2737367544323206e-13,0.0,-2.2737367544323206e-13,0.0,True,-43.08652338154657,43.08652338154657
-inequality,import_limit,engines,-2.842170943040401e-14,0.0,2.842170943040401e-14,0.0,True,-78.43386530731117,78.43386530731117
+inequality,import_limit,engines,-5.684341886080802e-14,0.0,5.684341886080802e-14,0.0,True,-78.43386530731117,78.43386530731117
 inequality,import_limit,steel,-7.194245199571014e-14,0.0,7.194245199571014e-14,0.0,True,-77.13402645658878,77.13402645658878
 inequality,import_limit,glass,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,fertilizer,0.0,0.0,0.0,0.0,True,-7.105427357601002e-15,7.105427357601002e-15
@@ -51,7 +51,7 @@ inequality,import_limit,luxury_clothes,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,luxury_furniture,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,gold,0.0,0.0,0.0,0.0,True,-0.0,0.0
 inequality,import_limit,fine_art,0.0,0.0,0.0,0.0,True,-0.0,0.0
-inequality,produce,wine,-2000.0,-2000.0,0.0,0.0,True,-285.7659125949078,285.7659125949078
+inequality,produce,wine,-2000.0,-2000.0,0.0,0.0,True,-310.7659125949078,310.7659125949078
 equality,era_cap,era_cap,0.0,0.0,,0.0,True,-0.0,
 equality,banned_building_groups,bg_gold_fields,0.0,0.0,,0.0,True,-0.0,
 equality,banned_building_groups,bg_army,0.0,0.0,,0.0,True,-0.0,

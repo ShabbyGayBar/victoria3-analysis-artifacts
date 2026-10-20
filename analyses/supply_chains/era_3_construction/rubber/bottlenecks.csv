@@ -1,5 +1,5 @@
 kind,family,label,realized_value,bound,slack,residual,binding,solver_marginal,improvement_per_unit
-inequality,import_limit,engines,0.0,0.0,0.0,0.0,True,-20.399388802058528,20.399388802058528
+inequality,import_limit,engines,2.842170943040401e-14,0.0,-2.842170943040401e-14,0.0,True,-20.399388802058528,20.399388802058528
 inequality,import_limit,explosives,0.0,0.0,0.0,0.0,True,-16.995242347968436,16.995242347968436
 inequality,import_limit,electricity,-1.1102230246251565e-16,0.0,1.1102230246251565e-16,0.0,True,-16.079877760411705,16.079877760411705
 inequality,import_limit,steel,-2.1316282072803006e-14,0.0,2.1316282072803006e-14,0.0,True,-12.19918506941137,12.19918506941137
