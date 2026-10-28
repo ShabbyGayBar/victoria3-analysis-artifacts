@@ -1,3 +1,3 @@
 kind,family,label,realized_value,bound,slack,residual,binding,solver_marginal,improvement_per_unit
-inequality,import_limit,engines,0.0,0.0,0.0,0.0,True,-18.75,18.75
-inequality,produce,tea,-2000.0,-2000.0,0.0,0.0,True,-5.0,5.0
+inequality,default_min_goods_output,engines,0.0,-0.0,-0.0,0.0,True,-18.75,18.75
+inequality,min_goods_output,tea,-2000.0,-2000.0,0.0,0.0,True,-5.0,5.0
