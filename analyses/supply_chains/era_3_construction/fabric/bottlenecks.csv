@@ -1,4 +1,2 @@
 kind,family,label,realized_value,bound,slack,residual,binding,solver_marginal,improvement_per_unit
-inequality,default_min_goods_output,engines,0.0,-0.0,-0.0,0.0,True,-21.538461538461547,21.538461538461547
-inequality,min_goods_output,fabric,-5000.0,-5000.0,0.0,0.0,True,-3.076923076923077,3.076923076923077
-inequality,default_min_goods_output,steel,0.0,-0.0,-0.0,0.0,True,-2.051282051282063,2.051282051282063
+inequality,min_goods_balance,hardwood,0.0,0.0,0.0,0.0,True,-10.0,10.0
